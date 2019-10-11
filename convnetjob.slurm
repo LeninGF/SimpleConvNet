@@ -5,7 +5,6 @@
 #SBATCH -w quinde-1-2
 #SBATCH -p quinde-G7-X5670 
 
-module load anaconda3/5.0.1-intel
 conda activate tf_cpu
 
 hostname
