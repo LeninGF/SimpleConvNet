@@ -24,7 +24,7 @@ model.add(Conv2D(32, kernel_size=3, activation='relu'))
 model.add(Flatten())
 model.add(Dense(10, activation='softmax'))
 
-print(model.summary)
+print(model.summary())
 #compile model using accuracy as a measure of model performance
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 
