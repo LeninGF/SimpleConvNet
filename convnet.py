@@ -1,8 +1,7 @@
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense, Conv2D, Flatten
 # import matplotlib.pyplot as plt
-# from keras.datasets import mnist
-from tensorflow.datasets import mnist
+from tensorflow.keras.datasets import mnist
 from tensorflow.keras.utils import to_categorical
 
 #download mnist data and split into train and test sets
