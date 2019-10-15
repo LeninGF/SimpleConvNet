@@ -4,6 +4,7 @@
 #SBATCH --gres=gpu:1
 #SBATCH -p quinde-G9-2680
 #SBATCH -w apollo-3
+#SBATCH --qos=extended
 
 hostname
 conda activate tf_gpu_cuda_10.0
